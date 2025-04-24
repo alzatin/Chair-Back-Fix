@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Wood Thickness",
-            "ioValue": 18
+            "ioValue": 16
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -36,7 +36,7 @@
             "ioValues": [
                 {
                     "name": "WoodThickness",
-                    "ioValue": 18
+                    "ioValue": 16
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -65,7 +65,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 18
+                            "ioValue": 16
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -934,7 +934,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 18
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1169,7 +1169,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 18
+                            "ioValue": 16
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2038,7 +2038,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 18
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2092,7 +2092,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 18
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2231,8 +2231,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3101851851851852,
-                    "y": 0.33147632311977715,
+                    "x": 0.3115079365079365,
+                    "y": 0.3565459610027855,
                     "uniqueID": 1745208732547,
                     "ioValues": [
                         {
@@ -2327,7 +2327,7 @@
                     "ioValues": [
                         {
                             "name": "WoodThickness",
-                            "ioValue": 18
+                            "ioValue": 16
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2484,7 +2484,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 18
+                                    "ioValue": 16
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2959,7 +2959,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 18
+                    "ioValue": 16
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3561,7 +3561,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 18
+                            "ioValue": 16
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3638,7 +3638,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -18
+                    "ioValue": -16
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -3652,7 +3652,7 @@
             "ioValues": [
                 {
                     "name": "T",
-                    "ioValue": 18
+                    "ioValue": 16
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3661,8 +3661,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5363756613756614,
-            "y": 0.3203342618384401,
+            "x": 0.5324074074074074,
+            "y": 0.32869080779944293,
             "uniqueID": 1745210187583,
             "ioValues": [
                 {
@@ -3684,7 +3684,7 @@
             "atomType": "Move",
             "name": "Move",
             "x": 0.36177248677248675,
-            "y": 0.7270194986072424,
+            "y": 0.7214484679665739,
             "uniqueID": 1745210260328,
             "ioValues": [
                 {
@@ -3701,7 +3701,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -18
+                    "ioValue": -16
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -3709,13 +3709,13 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5291005291005292,
-            "y": 0.7298050139275767,
+            "x": 0.5615079365079365,
+            "y": 0.7994428969359332,
             "uniqueID": 1745210328961,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1745210187583
+                    "ioValue": 1745207096377
                 }
             ],
             "description": "Extracts geometry containing the specified tag.",
@@ -3725,8 +3725,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7103174603174602,
-            "y": 0.7548746518105849,
+            "x": 0.8048941798941799,
+            "y": 0.7465181058495821,
             "uniqueID": 1745210389890,
             "ioValues": [
                 {
@@ -3748,6 +3748,36 @@
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": []
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7089947089947091,
+            "y": 0.5877437325905293,
+            "uniqueID": 1745455080832,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745210328961
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Chair-Back-Fix"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Chair-Back-Fix"
         }
     ],
     "allConnectors": [
@@ -3757,6 +3787,13 @@
             "ap2Primary": false,
             "ap1ID": 1745207096377,
             "ap2ID": 1745210187583
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1745207096377,
+            "ap2ID": 1745210328961
         },
         {
             "ap1Name": "number or geometry",
@@ -3823,13 +3860,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1745210187583,
-            "ap2ID": 1745210328961
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": 1745210260328,
@@ -3841,6 +3871,13 @@
             "ap2Primary": false,
             "ap1ID": 1745210328961,
             "ap2ID": 1745210389890
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1745210328961,
+            "ap2ID": 1745455080832
         }
     ],
     "unitsKey": "MM",
