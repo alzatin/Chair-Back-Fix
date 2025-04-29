@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "Brace",
-            "x": 0.2043650793650794,
-            "y": 0.3147632311977716,
+            "x": 0.20304232804232802,
+            "y": 0.32869080779944293,
             "uniqueID": 1745207096377,
             "ioValues": [
                 {
@@ -2356,7 +2356,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 160
+                            "ioValue": 170
                         },
                         {
                             "name": "yDist",
@@ -3167,8 +3167,8 @@
         {
             "atomType": "Molecule",
             "name": "Side Support",
-            "x": 0.1712962962962963,
-            "y": 0.6072423398328691,
+            "x": 0.18783068783068782,
+            "y": 0.6434540389972144,
             "uniqueID": 1745210029518,
             "ioValues": [
                 {
@@ -4335,7 +4335,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 150
+                    "ioValue": 160
                 },
                 {
                     "name": "yDist",
@@ -4483,6 +4483,74 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "Chair-Back-Fix"
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.6488095238095237,
+            "y": 0.7520891364902507,
+            "uniqueID": 1745965592735,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745210187583
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tag": "Wood",
+            "tagIndex": 0
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7797619047619048,
+            "y": 0.6935933147632313,
+            "uniqueID": 1745965606959,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745965592735
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 7
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                {
+                    "translate": {
+                        "x": 28.600000381469727,
+                        "y": 223.53082275390625
+                    },
+                    "id": 5,
+                    "rotate": 270
+                },
+                {
+                    "translate": {
+                        "x": -97.02680207128907,
+                        "y": 155.64855616293946
+                    },
+                    "id": 3,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 120.54640573706055,
+                        "y": 3.600006069921875
+                    },
+                    "id": 4,
+                    "rotate": 90
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -4565,6 +4633,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1745210187583,
+            "ap2ID": 1745965592735
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": 1745210260328,
@@ -4583,6 +4658,13 @@
             "ap2Primary": false,
             "ap1ID": 1745210328961,
             "ap2ID": 1745455080832
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1745965592735,
+            "ap2ID": 1745965606959
         }
     ],
     "unitsKey": "MM",
