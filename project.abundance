@@ -59,8 +59,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Horizontal",
-                    "x": 0.19113756613756613,
-                    "y": 0.3788300835654596,
+                    "x": 0.19444444444444442,
+                    "y": 0.40668523676880225,
                     "uniqueID": 1745207688220,
                     "ioValues": [
                         {
@@ -2346,7 +2346,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.31283068783068785,
+                    "x": 0.30952380952380953,
                     "y": 0.37325905292479106,
                     "uniqueID": 1745208732547,
                     "ioValues": [
@@ -2823,7 +2823,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": -10
+                                    "ioValue": -15
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -3031,7 +3031,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -10
+                            "ioValue": -15
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -4325,8 +4325,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.28703703703703703,
-            "y": 0.5264623955431754,
+            "x": 0.28439153439153436,
+            "y": 0.532033426183844,
             "uniqueID": 1745210147231,
             "ioValues": [
                 {
