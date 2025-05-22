@@ -4560,50 +4560,50 @@
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 7
+                    "ioValue": 15
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
                 {
                     "translate": {
-                        "x": 28.117706298828125,
-                        "y": 28.600000381469727
+                        "x": 32.11555480957031,
+                        "y": 32.599998474121094
                     },
                     "id": 6,
                     "rotate": 0
                 },
                 {
                     "translate": {
-                        "x": 121.1652412313965,
-                        "y": -39.269170742968754
+                        "x": 135.20485306899414,
+                        "y": -27.826805109374988
+                    },
+                    "id": 7,
+                    "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 351.603645309375,
+                        "y": 228.32743456899414
+                    },
+                    "id": 5,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 200.3853797519043,
+                        "y": -24.500098174414063
                     },
                     "id": 9,
                     "rotate": 90
                 },
                 {
                     "translate": {
-                        "x": 178.29606822946778,
-                        "y": 281.43316076699216
-                    },
-                    "id": 7,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": 6.972183728710945,
-                        "y": 213.00636096293945
-                    },
-                    "id": 5,
-                    "rotate": 0
-                },
-                {
-                    "translate": {
-                        "x": 235.47688542946779,
-                        "y": 292.4810827669922
+                        "x": -93.026802109375,
+                        "y": 275.6923105310059
                     },
                     "id": 8,
-                    "rotate": 270
+                    "rotate": 0
                 }
             ]
         },
@@ -4658,6 +4658,36 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.906084656084656,
+            "y": 0.6899441340782123,
+            "uniqueID": 1747944100437,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745965606959
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Chair-Back-Fix"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Chair-Back-Fix"
         }
     ],
     "allConnectors": [
@@ -4793,6 +4823,13 @@
             "ap2Primary": false,
             "ap1ID": 1745965592735,
             "ap2ID": 1745965606959
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1745965606959,
+            "ap2ID": 1747944100437
         },
         {
             "ap1Name": "geometry",
