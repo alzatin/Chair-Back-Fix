@@ -4688,6 +4688,36 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "Chair-Back-Fix"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.3783068783068783,
+            "y": 0.9189944134078213,
+            "uniqueID": 1747948044714,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745210029518
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Chair-Back-Fix"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Chair-Back-Fix"
         }
     ],
     "allConnectors": [
@@ -4732,6 +4762,13 @@
             "ap2Primary": true,
             "ap1ID": 1745210029518,
             "ap2ID": 1745210147231
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1745210029518,
+            "ap2ID": 1747948044714
         },
         {
             "ap1Name": "geometry",
